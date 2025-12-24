@@ -1,0 +1,380 @@
+#d1{
+    width:100%;
+    height:800px;
+    background:linear-gradient(90deg,rgb(190, 189, 160) 60%,white 100%);
+    
+}
+
+#d2{
+
+    width:1690px;
+    height:100px;
+    display:flex;
+    background:linear-gradient(90deg,rgb(164, 44, 44) 60%,rgb(193, 193, 115) 100%);
+    position: relative;
+    z-index:4;
+    
+}
+
+#d3{
+    display: flex;
+
+}
+
+#d4{
+    height:700px;
+    width:780px;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#d5{
+    height:700px;
+    width:900px;    
+}
+#d6{
+    height:690px;
+    width:500px;
+    border-radius: 400px 0px 0px 400px;
+    margin-left:320px;
+    box-shadow: 0px 0px 250px 10px rgb(150, 186, 5);
+    z-index: 2;
+    position:absolute;
+    top:120px;
+    left:870px;
+    background-color: #a6a15e;
+}
+
+#o1{
+    
+    height:500px;
+    width:400px;
+    position:relative;
+    left:300px;
+    z-index:3;
+    top:100px;
+    transition:transform 0.3s;
+    filter:drop-shadow(2px 20px 20px rgb(59, 59, 11));
+    
+}
+
+#o2{
+    position:absolute;
+    z-index:1;
+}
+
+#d7{
+    height:500px;
+    width:500px;
+    
+    position: relative;
+    top:100px;
+    left:300px;
+
+}
+button{
+    height:40px;
+    width:100px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+button:hover{
+    color:white;
+    background-color:black;
+}
+button:not(:last-child){
+    margin-right:20px;
+}
+#s1{
+    height:30px;
+    width:80px;
+    border:none;
+    margin-left:50px;
+    margin-top:40px;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    
+}
+#s2{
+    
+    height:30px;
+    width:80px;
+    border:none;
+    margin-left:90px;
+    background-color:rgba(0,0,0,0);
+    margin-top:40px;
+    color:white;
+    
+
+}
+select option{
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    margin-left:120px;
+    padding-top:40px;
+    color:white;
+}
+a:hover{
+    color:black;
+    transform:scale(1.3);
+    transition:0.2s;
+}
+#s1:hover,#s2:hover{
+    
+    color:black;
+    transform:scale(1.3);
+    transition:0.2s;
+}
+
+#o1:hover{
+    animation:wind 1s infinite;
+    transition:0.6s;
+    filter:drop-shadow(1px 1px 20px red);
+    
+}
+
+@keyframes wind{
+     0%   { transform: rotate(0deg); }
+      25%  { transform: rotate(5deg); }
+      50%  { transform: rotate(-5deg); }
+      75%  { transform: rotate(4deg); }
+      100% { transform: rotate(0deg); }
+}
+
+
+
+
+#d10{
+    width:1690px;
+    height:800px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    background-color: rgb(225, 211, 211);
+    }
+#d11{
+    height:600px;
+    width:1200px;
+    gap:10px;
+    position:relative;
+    top:90px;
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+
+}
+
+#d12{
+    height:500px;
+    position:relative;
+    top:50px;
+    width:500px;
+    flex-shrink:0;
+    z-index:1;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px -5px #94a6af;
+    background-color: rgb(183, 240, 220);
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#d13{
+    height:150px;
+    width:150px;
+    box-shadow: 0 10px 20px -5px #94a6af;
+    border-radius: 50%;
+    position:absolute;
+    left:175px;
+    top:-50px;
+    z-index:2;
+}
+
+#d13:hover{
+    box-shadow: 0 10px 20px 5px rgb(57, 197, 151);
+    transform:scale(1.2);
+    transition:1s;
+}
+
+#d14{
+    text-align: center;
+    padding-top: 50px;
+    width:1690px;
+    height:800px;
+    background-image: url('1076701.webp');
+    background-repeat: no-repeat;
+    background-size:1750px 800px;
+    position:relative;
+}
+
+#d15{
+    position:relative;
+    border:1px solid white;
+    height:150px;
+    width:150px;
+    left:130px;
+    top:50px;
+    background-size:150px 150px; 
+    box-shadow:0px 0px 10px 10px yellow;
+    background-image: url('op.webp');
+    background-color: blueviolet;
+    animation:rotate 5s infinite linear;
+    border-radius: 50%;
+    
+}
+
+#d15:hover{
+    transform:scale(1.2s);
+    transition:1s;
+    box-shadow:0px 0px 40px 10px rgb(148, 196, 148) ;
+}
+
+
+
+
+@keyframes rotate{
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+#d16{
+    position:relative;
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    left:1430px;
+    bottom:100px;
+    background-image: url('op.webp');
+    background-size:150px 150px; 
+    animation:rtate 5s infinite linear;
+    box-shadow:0px 0px 10px 10px yellow;
+
+
+}
+
+#d16:hover{
+    transform:scale(1.2s);
+    transition:1s;
+    box-shadow:0px 0px 40px 10px rgb(148, 196, 148) ;
+}
+
+@keyframes rtate{
+    from{
+        transform:rotate(360deg);
+    }
+
+    to{
+        transform:rotate(0deg);
+    }
+}
+
+#d18 {
+
+    width:1690px;
+    height: 800px;
+    position:relative;
+}
+
+.vv{
+    object-fit: cover;
+    position:relative;
+    left:0;
+    z-index:-1;
+    height:750px;
+    width:1690px;
+}
+#d19{
+    
+    width:1690px;
+    height:800px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    background-color: rgb(225, 211, 211);
+    position:relative;
+    border:1px solid black;
+}
+
+#d20{
+    
+    height:600px;
+    width:1200px;
+    gap:10px;
+    position:relative;
+    top:40px;
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+#d21{
+    height:500px;
+    position:relative;
+    top:50px;
+    width:500px;
+    flex-shrink:0;
+    z-index:1;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px -5px #94a6af;
+    background-color: rgb(154, 164, 238);
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#d22{
+    
+    height:150px;
+    width:150px;
+    box-shadow: 0 10px 20px -5px #0c1d26;
+    border-radius: 50%;
+    position:absolute;
+    left:175px;
+    top:-50px;
+    z-index:2;
+}
+
+#hh,#hhh,#hhhh,#hhq,#hhqq{
+    margin-top:200px;
+}
+#ss,#sss,#ssss,#ssq,#ssqq{
+    font-size:25px;
+}
+del{
+    
+    font-size:15px;
+}
+
+h4{
+    font-size:40px;
+    color:rgb(79, 29, 43);
+}
+
+#d21:hover{
+    background-color: rgb(142, 199, 165);
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+#d22:hover{
+    
+    box-shadow: 0 10px 80px -5px white ;
+}
